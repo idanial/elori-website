@@ -249,8 +249,7 @@ a {
 
 @media (max-width: 720px) {
   body {
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden auto;
   }
 
   .page {
@@ -281,7 +280,6 @@ a {
   .hero-visual img {
     width: 200%;
     max-width: none;
-    height: auto;
     max-height: none;
     display: block;
     margin-left: -50%;
